@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinnapat N.</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- ฟอนต์ -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS ของคุณ -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Chinnapat N.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="#history">ประวัติส่วนตัว</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dreams">ความใฝ่ฝัน</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">ผลงานที่ภาคภูมิใจ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Home -->
+  <section id="home">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5 col-md-6 text-center mb-4 mb-md-0">
+          <img src="img/31495__2_-removebg-preview.png" class="profile-img" alt="">
+        </div>
+        <div class="col-lg col-md col-sm">
+          <div class="text-container">
+            <p class="nameheader">นายชินณพัฒน์ นุชอนงค์</p>
+            <p class="nameeng">Mr. Chinnapat Nuchanong</p>
+            
+            <div class="contact">
+              <a href="mailto:thikkexrn@gmail.com">
+                <i class="bi bi-envelope-at-fill"></i> Email
+              </a>
+              <a href="tel:0971040474">
+                <i class="bi bi-telephone-fill"></i> 097-104-0474
+              </a>
+              <a href="https://www.facebook.com/ger.nuch" target="_blank">
+                <i class="bi bi-facebook"></i> Facebook
+              </a>
+              <a href="https://github.com/Ger884" target="_blank">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+            </div>
+
+            <hr class="fancy-hr">
+            <p class="quote">" Every program comes from a problem "</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section ประวัติส่วนตัว -->
+  <section id="history">
+    <div class="container">
+      <h2 class="section-title">ประวัติส่วนตัว</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="content-box">
+            <h3><i class="bi bi-person-badge"></i> ข้อมูลส่วนตัว</h3>
+            <p><strong>ชื่อ:</strong> นายชินณพัฒน์ นุชอนงค์</p>
+            <p><strong>ชื่อเล่น:</strong> เกอร์</p>
+            <p><strong>อีเมล:</strong> thikkexrn@gmail.com</p>
+            <p><strong>เบอร์โทร:</strong> 097-104-0474</p>
+          </div>
+
+          <div class="content-box">
+            <h3><i class="bi bi-book"></i> การศึกษา</h3>
+            <p><strong>ประถมศึกษา:</strong> โรงเรียนวัดกระทุ่มทอง <strong>GPA:</strong> 3.50</p>
+            <p><strong>มัธยมศึกษาตอนต้น:</strong> โรงเรียนวัดกระทุ่มทอง <strong>GPA:</strong> 3.90</p>
+            <p><strong>มัธยมศึกษาตอนปลาย:</strong> โรงเรียนรัตนาธิเบศร์ <strong>GPA:</strong> 3.84</p>
+          </div>
+
+          <div class="content-box">
+            <h3><i class="bi bi-star"></i> ทักษะ</h3>
+            <p><strong>ภาษาโปรแกรมที่ถนัด:</strong> JavaScript, PHP, Python, C</p>
+            <p><strong>เครื่องมือที่ใช้:</strong> Git desktop, XAMPP, Flutter, Figma, Visual Studio Code</p>
+            <p><strong>ทักษะอื่นๆ:</strong> การทำงานเป็นทีม, การแก้ปัญหา, การสื่อสาร</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section ความใฝ่ฝัน -->
+  <section id="dreams">
+    <div class="container">
+      <h2 class="section-title">ความใฝ่ฝัน</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="content-box">
+            <h3><i class="bi bi-lightbulb"></i> เป้าหมายในอนาคต</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Amet fuga quos qui veritatis eos quam ipsum in debitis
+                 quis laudantium ducimus omnis, saepe neque exercitationem
+                  provident id nam, vitae repellendus? Nulla, voluptate, commodi
+                   obcaecati aspernatur dolorum id iste consectetur saepe doloribus
+                    qui dolor dignissimos. In cum corrupti vel consectetur asperiores?
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section ผลงาน -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">ผลงานที่ภาคภูมิใจ</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="project-card">
+            <h3><i class="bi bi-code-square"></i> โปรเจค</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nihil.</p>
+          </div>
+          
+          <div class="project-card">
+            <h3><i class="bi bi-code-square"></i> โปรเจค</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nihil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: rgba(26, 26, 26, 0.95) !important;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #ffca28 !important;
+    }
+
+    .nav-link {
+      color: #ffffff !important;
+      transition: color 0.3s;
+      margin: 0 0.5rem;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #ffca28 !important;
+    }
+
+    /* Section Home */
+    #home {
+      background: linear-gradient(135deg, #434343 0%, #2a2a2a 100%);
+      min-height: 100vh;
+      padding: 120px 20px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-img {
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+      margin-right: 3rem;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+
+    .text-container {
+      max-width: 600px;
+      padding: 0 20px;
+    }
+
+    .nameheader {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ffca28;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+
+    .nameeng {
+      font-size: 1.8rem;
+      color: #e0e0e0;
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+
+    .contact a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      transition: all 0.3s;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact a:hover {
+      background-color: #ffca28;
+      color: #1a1a1a;
+      transform: translateY(-2px);
+    }
+
+    .fancy-hr {
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #ffca28, transparent);
+      margin: 2rem 0;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 1.3rem;
+      color: #b0b0b0;
+      font-weight: 300;
+    }
+
+    /* Section ทั่วไป */
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+    }
+
+    #history {
+      background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    }
+
+    #dreams {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    }
+
+    #projects {
+      background: linear-gradient(135deg, #2a2a2a 0%, #434343 100%);
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ffca28;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .content-box {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 15px;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .content-box h3 {
+      color: #ffca28;
+      margin-bottom: 1rem;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      transition: all 0.3s;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(255, 202, 40, 0.3);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nameheader {
+        font-size: 2rem;
+      }
+
+      .nameeng {
+        font-size: 1.3rem;
+      }
+
+      .profile-img {
+        max-width: 280px;
+        margin-bottom: 2rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .contact {
+        justify-content: center;
+      }
+
+      #home {
+        padding-top: 100px;
+        text-align: center;
+      }
+
+      .text-container {
+        text-align: center;
+      }
+    }
+
+    @media (min-width: 769px) {
+      #home .container {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+      }
+    }
