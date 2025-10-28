@@ -4,20 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chinnapat N.</title>
-
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-  <!-- ฟอนต์ -->
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- CSS ของคุณ -->
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#home">Chinnapat N.</a>
@@ -35,7 +28,6 @@
     </div>
   </nav>
 
-  <!-- Section Home -->
   <section id="home">
     <div class="container">
       <div class="row align-items-center justify-content-center">
@@ -70,7 +62,6 @@
     </div>
   </section>
 
-  <!-- Section ประวัติส่วนตัว -->
   <section id="history">
     <div class="container">
       <h2 class="section-title">ประวัติส่วนตัว</h2>
@@ -102,7 +93,6 @@
     </div>
   </section>
 
-  <!-- Section ความใฝ่ฝัน -->
   <section id="dreams">
     <div class="container">
       <h2 class="section-title">ความใฝ่ฝัน</h2>
@@ -153,7 +143,6 @@
     </div>
   </section>
 
-  <!-- Section ผลงาน -->
   <section id="projects">
     <div class="container">
       <h2 class="section-title">ผลงานที่ภาคภูมิใจ</h2>
